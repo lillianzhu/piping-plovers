@@ -97,9 +97,6 @@ public class TempBird : MonoBehaviour
 
         Vector3 v = rb.velocity;
 
-        v.x = rb.velocity.x;
-        v.z = rb.velocity.z;
-
         v.x = Mathf.MoveTowards(v.x, targetV.x, actualMaxAcceleration * Time.deltaTime);
         v.z = Mathf.MoveTowards(v.z, targetV.z, actualMaxAcceleration * Time.deltaTime);
 
