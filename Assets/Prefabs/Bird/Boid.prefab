@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 45463496492494869, guid: 40dc93725ef804239b48da4ecfa41fa3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 45463496492494869, guid: 40dc93725ef804239b48da4ecfa41fa3,
         type: 3}
@@ -71,6 +71,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8440315437740976149}
+    - targetCorrespondingSourceObject: {fileID: 6586069213332899960, guid: 40dc93725ef804239b48da4ecfa41fa3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5732841431241139226}
   m_SourcePrefab: {fileID: 100100000, guid: 40dc93725ef804239b48da4ecfa41fa3, type: 3}
 --- !u!1 &2720178208413740071 stripped
 GameObject:
@@ -109,8 +113,35 @@ MonoBehaviour:
   boid_coherence: 1
   boid_vel: 0.125
   boid_n_dist: 0.6
-  boid_n_theta: 60
+  boid_n_theta: 10
   boid_speed: 1.45
   boid_sensitivity: 0.2
   boid_max_speed: 5
   boid_rest: 0
+--- !u!114 &5732841431241139226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720178208413740071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68bf3ddbec35467bac2e71440ad53be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnFoodCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ScoreUI, Assembly-CSharp
+        m_MethodName: UpdateScoreText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

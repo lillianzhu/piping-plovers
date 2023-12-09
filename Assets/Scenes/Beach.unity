@@ -131,6 +131,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1477164811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5838851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!1001 &34797463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -199,6 +267,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &48551983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1984871579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &58017089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -273,6 +347,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2073023258}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &60772013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1297447820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &70108726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 2000004958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &71397567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 711181640}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &85827180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -341,6 +433,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &96787751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1511134817}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &168760447 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
@@ -495,81 +593,92 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 899952468}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &196282267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 2078266261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &206144627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
     type: 3}
   m_PrefabInstance: {fileID: 85827180}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &312388772
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &258899050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 771252257}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Override
-  m_Shader: {fileID: 4800000, guid: a3a3bc8785681554d9558e2ea68f100e, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
+--- !u!1001 &264972108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
     serializedVersion: 3
-    m_TexEnvs: []
-    m_Ints: []
-    m_Floats:
-    - _AdvancedCat: 1
-    - _Banner: 1
-    - _DirectionalCat: 1
-    - _DirectionalFalloff: 2
-    - _DirectionalIntensity: 1
-    - _FarDistanceHeight: 0
-    - _FarDistanceOffset: 0
-    - _FogAxisMode: 1
-    - _FogCameraMode: 0
-    - _FogCat: 1
-    - _FogColorDuo: 1
-    - _FogDistanceEnd: 100
-    - _FogDistanceFalloff: 2
-    - _FogDistanceStart: 0
-    - _FogHeightEnd: 100
-    - _FogHeightFalloff: 2
-    - _FogHeightStart: 0
-    - _FogIntensity: 1
-    - _FogLayersMode: 0
-    - _IsHeightFogPreset: 1
-    - _IsHeightFogShader: 1
-    - _JitterIntensity: 1
-    - _NoiseCat: 1
-    - _NoiseDistanceEnd: 50
-    - _NoiseIntensity: 1
-    - _NoiseMax: 1
-    - _NoiseMin: 0
-    - _NoiseModeBlend: 1
-    - _NoiseScale: 30
-    - _SkyboxCat: 1
-    - _SkyboxFogBottom: 0
-    - _SkyboxFogFalloff: 1
-    - _SkyboxFogFill: 1
-    - _SkyboxFogHeight: 1
-    - _SkyboxFogIntensity: 1
-    - _SkyboxFogOffset: 0
-    m_Colors:
-    - _DirectionalColor: {r: 1, g: 0.7793103, b: 0.5, a: 1}
-    - _DirectionalDir: {r: 0, g: 0, b: 0, a: 0}
-    - _FogAxisOption: {r: 0, g: 0, b: 0, a: 0}
-    - _FogColorEnd: {r: 0.8862745, g: 1.443137, b: 2, a: 1}
-    - _FogColorStart: {r: 0.4411765, g: 0.722515, b: 1, a: 1}
-    - _NoiseSpeed: {r: 0.5, g: 0, b: 0.5, a: 0}
-  m_BuildTextureStacks: []
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!1001 &315582725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -793,6 +902,80 @@ MonoBehaviour:
     m_Bits: 1
   isCursorConfined: 0
   cursorWorldPosition: {x: 0, y: 0, z: 0}
+--- !u!1001 &365737681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &392556170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 264972108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +1106,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 58017089}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &462561181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 632564514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &582118871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1218,74 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Piping Plover TEMP (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &632564514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (51)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1358,6 +1615,142 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &711181640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (46)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &771252257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!1001 &810695948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1475,6 +1868,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 940578016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &835439543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &836167211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1524760178}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &840337715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1543,6 +2010,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &847815446 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1094390799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &864144081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,7 +2113,7 @@ MonoBehaviour:
   renderPriority: 1
   manualPositionAndScale: 0
   styledSpace0: 0
-  overrideMaterial: {fileID: 312388772}
+  overrideMaterial: {fileID: 1921760853}
   overrideCamToVolumeDistance: 1
   overrideVolumeDistanceFade: 0
   version: 0
@@ -1672,7 +2145,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1558207931}
+  - {fileID: 1940839898}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1694,6 +2167,74 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &870393703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (45)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!1001 &899952468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1949,6 +2490,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &1005090676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1519140865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1019580682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2022,6 +2569,166 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
     type: 3}
   m_PrefabInstance: {fileID: 1836011750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1038624142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 365737681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1063195574
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &1071667694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1063195574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1094390799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (49)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &1136517318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1570579553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1149196992 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 870393703}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1154430816
 PrefabInstance:
@@ -2264,6 +2971,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1297447820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (42)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!4 &1307180904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
@@ -2425,18 +3200,228 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1001 &1339383459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!4 &1339761684 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
     type: 3}
   m_PrefabInstance: {fileID: 1971611293}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1363711252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!4 &1364546687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
     type: 3}
   m_PrefabInstance: {fileID: 180711662}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1367134893 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 5838851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1410246611
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!4 &1412290741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
@@ -2835,63 +3820,357 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
---- !u!21 &1558207931
-Material:
-  serializedVersion: 8
+--- !u!1001 &1511134817
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Height Fog Global
-  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
+  serializedVersion: 2
+  m_Modification:
     serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AdvancedCat: 1
-    - _AlphaCutoff: 0.5
-    - _Banner: 1
-    - _DirectionalCat: 1
-    - _FogCameraMode: 0
-    - _FogCat: 1
-    - _HeightFogGlobal: 1
-    - _IsHeightFogShader: 1
-    - _NoiseCat: 1
-    - _QueueControl: -1
-    - _QueueOffset: 0
-    - _SkyboxCat: 1
-    m_Colors:
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (48)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1519140865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1524760178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (40)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1570579553
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1585171258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (47)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!4 &1637175564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
     type: 3}
   m_PrefabInstance: {fileID: 1954002151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1638862909 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1721915844}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1661477615
 PrefabInstance:
@@ -2955,6 +4234,148 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Piping Plover TEMP (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &1697408407 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1410246611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1721915844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (50)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1723237954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (39)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3139,6 +4560,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &1857490695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 835439543}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1874637792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 2039123556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896530474
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,6 +4628,32 @@ Transform:
   - {fileID: 1339761684}
   - {fileID: 905242379}
   - {fileID: 443090715}
+  - {fileID: 48551983}
+  - {fileID: 1857490695}
+  - {fileID: 1697408407}
+  - {fileID: 1941353209}
+  - {fileID: 1071667694}
+  - {fileID: 2088561224}
+  - {fileID: 196282267}
+  - {fileID: 258899050}
+  - {fileID: 1038624142}
+  - {fileID: 1136517318}
+  - {fileID: 392556170}
+  - {fileID: 1005090676}
+  - {fileID: 1367134893}
+  - {fileID: 2070159741}
+  - {fileID: 836167211}
+  - {fileID: 70108726}
+  - {fileID: 60772013}
+  - {fileID: 2055916341}
+  - {fileID: 1874637792}
+  - {fileID: 1149196992}
+  - {fileID: 71397567}
+  - {fileID: 2033091870}
+  - {fileID: 96787751}
+  - {fileID: 847815446}
+  - {fileID: 1638862909}
+  - {fileID: 462561181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1896530476
@@ -3210,6 +4669,133 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   birdController: {fileID: 0}
+--- !u!21 &1921760853
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Override
+  m_Shader: {fileID: 4800000, guid: a3a3bc8785681554d9558e2ea68f100e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AdvancedCat: 1
+    - _Banner: 1
+    - _DirectionalCat: 1
+    - _DirectionalFalloff: 2
+    - _DirectionalIntensity: 1
+    - _FarDistanceHeight: 0
+    - _FarDistanceOffset: 0
+    - _FogAxisMode: 1
+    - _FogCameraMode: 0
+    - _FogCat: 1
+    - _FogColorDuo: 1
+    - _FogDistanceEnd: 100
+    - _FogDistanceFalloff: 2
+    - _FogDistanceStart: 0
+    - _FogHeightEnd: 100
+    - _FogHeightFalloff: 2
+    - _FogHeightStart: 0
+    - _FogIntensity: 1
+    - _FogLayersMode: 0
+    - _IsHeightFogPreset: 1
+    - _IsHeightFogShader: 1
+    - _JitterIntensity: 1
+    - _NoiseCat: 1
+    - _NoiseDistanceEnd: 50
+    - _NoiseIntensity: 1
+    - _NoiseMax: 1
+    - _NoiseMin: 0
+    - _NoiseModeBlend: 1
+    - _NoiseScale: 30
+    - _SkyboxCat: 1
+    - _SkyboxFogBottom: 0
+    - _SkyboxFogFalloff: 1
+    - _SkyboxFogFill: 1
+    - _SkyboxFogHeight: 1
+    - _SkyboxFogIntensity: 1
+    - _SkyboxFogOffset: 0
+    m_Colors:
+    - _DirectionalColor: {r: 1, g: 0.7793103, b: 0.5, a: 1}
+    - _DirectionalDir: {r: 0, g: 0, b: 0, a: 0}
+    - _FogAxisOption: {r: 0, g: 0, b: 0, a: 0}
+    - _FogColorEnd: {r: 0.8862745, g: 1.443137, b: 2, a: 1}
+    - _FogColorStart: {r: 0.4411765, g: 0.722515, b: 1, a: 1}
+    - _NoiseSpeed: {r: 0.5, g: 0, b: 0.5, a: 0}
+  m_BuildTextureStacks: []
+--- !u!21 &1940839898
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Height Fog Global
+  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdvancedCat: 1
+    - _AlphaCutoff: 0.5
+    - _Banner: 1
+    - _DirectionalCat: 1
+    - _FogCameraMode: 0
+    - _FogCat: 1
+    - _HeightFogGlobal: 1
+    - _IsHeightFogShader: 1
+    - _NoiseCat: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _SkyboxCat: 1
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!4 &1941353209 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1363711252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1954002151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3346,12 +4932,222 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &1984871579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &2000004958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (41)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!4 &2013894042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4282108835235397166, guid: c9a2625c0f1d67f4291a26b9710189f3,
     type: 3}
   m_PrefabInstance: {fileID: 1154430816}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2033091870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1585171258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2039123556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (44)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
 --- !u!1001 &2040864265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3420,6 +5216,80 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &2041100404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (43)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &2055916341 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 2041100404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2061550738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3493,6 +5363,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
     type: 3}
   m_PrefabInstance: {fileID: 2040864265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2070159741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1723237954}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2072037505
 PrefabInstance:
@@ -3630,6 +5506,80 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!1001 &2078266261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896530475}
+    m_Modifications:
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586069213332899960, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+        type: 3}
+      propertyPath: m_Name
+      value: Piping Plover TEMP (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e34b8782a309df43959ef1fdd3f3eef, type: 3}
+--- !u!4 &2088561224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1339383459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2095554707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45463496492494869, guid: 8e34b8782a309df43959ef1fdd3f3eef,
