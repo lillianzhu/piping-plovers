@@ -9,9 +9,21 @@ public class TempBirdController : MonoBehaviour
     
     [Header("Info")]
     public bool isCursorConfined;
-    public Vector3 cursorWorldPosition;
+    public Vector3 cursorWorldPosition = new Vector3(0f, 0f, 0f);
 
     Camera cam;
+
+    [Header("Birds")]
+
+    public GameObject birdRoot;
+
+    public GameObject COM;
+
+    public List<Rigidbody> boids;
+
+    public int num_boids;
+
+    public Vector3 com;
 
     void Update()
     {
@@ -20,23 +32,39 @@ public class TempBirdController : MonoBehaviour
             cam = Camera.main;
         }
 
-        ManageCursorState();
+        // ManageCursorState();
 
-        //dont update cursor position if we are not confined
-        //alt tabbing breaks this
-        if (!isCursorConfined)
+        // //dont update cursor position if we are not confined
+        // //alt tabbing breaks this
+        // if (!isCursorConfined)
+        // {
+        //     return;
+        // }
+        
+        // Outer if statement makes it mouse-click instead of continuous controls
+        if (Input.GetMouseButtonDown(0))
         {
-            return;
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out RaycastHit hit, 1000, groundMask))
+            {
+                cursorWorldPosition = hit.point;
+                // Debug.DrawRay(hit.point, Vector3.up);
+            }
         }
 
-        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-
-        if (Physics.Raycast(ray, out RaycastHit hit, 1000, groundMask))
-        {
-            cursorWorldPosition = hit.point;
-
-            Debug.DrawRay(hit.point, Vector3.up);
+        boids = new List<Rigidbody>(); // Initialize followers list
+        num_boids = birdRoot.transform.childCount;
+        com = new Vector3(0f, 0f, 0f);
+        for (int i = 0; i < num_boids; i++) {
+            Rigidbody boid = birdRoot.transform.GetChild(i).gameObject.GetComponent<Rigidbody>();
+            if (boid != null) {
+                com += boid.position;
+                boids.Add(boid);
+            }
         }
+
+        com /= num_boids;
+        COM.transform.position = com;
     }
 
     void ManageCursorState()

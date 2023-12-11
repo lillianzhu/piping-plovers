@@ -24,8 +24,6 @@ public class TempBird : MonoBehaviour
 
     [Header("Boid")]
 
-    public GameObject bird_parent;
-
     private List<Rigidbody> boids;
     private int num_boids;
 
@@ -44,8 +42,6 @@ public class TempBird : MonoBehaviour
 
     public float boid_max_speed = 0.5f;
 
-    public float boid_rest = 0f;
-
     Rigidbody rb;
     Animator animator;
     
@@ -60,17 +56,22 @@ public class TempBird : MonoBehaviour
         actualMaxSpeed = maxSpeed + Random.Range(-1, 1f) * speedVariance;
         actualMaxRotationSpeed = maxRotationSpeed + Random.Range(-1, 1f) * rotationVariance;
 
-        animator.enabled = false;
-
         Invoke(nameof(DelayAnimatorEnable), Random.Range(0f, 0.4f));
         
         // Update boids
-        boids = new List<Rigidbody>(); // Initialize followers list
-        num_boids = bird_parent.transform.childCount;
-        for (int i = 0; i < num_boids; i++) {
-            Rigidbody boid = bird_parent.transform.GetChild(i).gameObject.GetComponent<Rigidbody>();
-            boids.Add(boid);
-        }
+        // boids = new List<Rigidbody>(); // Initialize followers list
+        // num_boids = bird_parent.transform.childCount;
+        // for (int i = 0; i < num_boids; i++) {
+        //     Rigidbody boid = bird_parent.transform.GetChild(i).gameObject.GetComponent<Rigidbody>();
+        //     boids.Add(boid);
+        // }
+
+        // Initialize these variables
+        num_boids = birdManager.birdController.num_boids;
+        boids = birdManager.birdController.boids;
+
+        // Try to clamp max angular velocity
+        // rb.maxAngularVelocity = 0.001f;
 
         // Seed boid parameters with random noise
         boid_com += Random.Range(-0.01f, 0.01f);
@@ -82,6 +83,7 @@ public class TempBird : MonoBehaviour
         boid_speed += Random.Range(-0.1f, 0.1f);
         boid_sensitivity += Random.Range(-0.07f, 0.07f);
         boid_max_speed += Random.Range(-0.5f, 0.5f);
+
     }
 
     void DelayAnimatorEnable()
@@ -116,24 +118,14 @@ public class TempBird : MonoBehaviour
     
         animator.SetFloat("Speed", rb.velocity.magnitude / maxSpeed);
 
-        // Update boids
-        boids = new List<Rigidbody>(); // Initialize followers list
-        num_boids = bird_parent.transform.childCount;
-        for (int i = 0; i < num_boids; i++) {
-            Rigidbody boid = bird_parent.transform.GetChild(i).gameObject.GetComponent<Rigidbody>();
-            boids.Add(boid);
-        }
+        num_boids = birdManager.birdController.num_boids;
+        boids = birdManager.birdController.boids;
 
         MoveAsBoid();
         LookAtVelocity(); 
     }
 
     void MoveAsBoid() {
-        // Implement random dropout
-        if (Random.Range(0f, 1f) < boid_rest) {
-            rb.velocity = new Vector3(0f, 0f, 0f);
-        }
-
         Vector3 leader = birdManager.birdController.cursorWorldPosition;
 
         Rigidbody bird = rb;
@@ -143,11 +135,9 @@ public class TempBird : MonoBehaviour
             Rigidbody boid = boids[i];
             if (boid != bird) {
                 Vector3 distance = boid.position - bird.position;
-                Debug.Log(distance.magnitude);
                 // Check within distance
                 if (distance.magnitude < boid_n_dist) {
                     // Optional check within viewing angle
-                    // Debug.Log(bird.rotation.eulerAngles);
                     if (Vector3.Angle(rb.velocity, distance) < boid_n_theta) {
                         neighbors.Add(boid);
                     }
@@ -157,9 +147,6 @@ public class TempBird : MonoBehaviour
         }
 
         int num_neighbors = neighbors.Count;
-        // if (num_neighbors == 0) {
-        //     return;
-        // }
 
         // 1. Boids fly towards center of mass of its closest neighbors
         Vector3 centerOfMassComponent = new Vector3(0f, 0f, 0f);
@@ -206,11 +193,10 @@ public class TempBird : MonoBehaviour
         velocity *= boid_speed;
        
        
-        Debug.Log("Components of " + bird.velocity +  "com: " + centerOfMassComponent +
-            "spacing: " + antiCollisionComponent + "vel: " + velocityMatchComponent +
-            "follow: " +  followComponent);
+        // Debug.Log("Components of " + bird.velocity +  "com: " + centerOfMassComponent +
+        //     "spacing: " + antiCollisionComponent + "vel: " + velocityMatchComponent +
+        //     "follow: " +  followComponent);
 
-        Debug.Log(velocity.magnitude);
         // Move bird if vector exceeds sensitivity threshold
         if (velocity.magnitude > boid_sensitivity) {
             // Move bird
@@ -225,6 +211,7 @@ public class TempBird : MonoBehaviour
         }
     }
 
+    // Deprecated
     void MoveToCursor()
     {
         Vector3 cursorPos = birdManager.birdController.cursorWorldPosition;
@@ -266,7 +253,8 @@ public class TempBird : MonoBehaviour
         if (other.gameObject.layer.Equals(Layer.Water))
         {
             drowned = true;
-            Destroy(gameObject, 1);
+            // Shortened time till destroy to reduce camera lag
+            Destroy(gameObject, 0.5f);
         }
     }
 }

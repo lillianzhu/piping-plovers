@@ -159,10 +159,23 @@ MonoBehaviour:
   accelerationVariance: 10
   speedVariance: 0.5
   rotationVariance: 5
+  drowned: 0
   actualMaxAcceleration: 0
   actualMaxSpeed: 0
   actualMaxRotationSpeed: 0
   birdManager: {fileID: 0}
+  bird_parent: {fileID: 0}
+  boid_com: 0.1
+  boid_follow: 0
+  boid_spacing: 1
+  boid_coherence: 0.5
+  boid_vel: 0.2
+  boid_n_dist: 1
+  boid_n_theta: 60
+  boid_speed: 0.5
+  boid_sensitivity: 0.05
+  boid_max_speed: 0.5
+  boid_rest: 0.01
 --- !u!1001 &4006214396869929438
 PrefabInstance:
   m_ObjectHideFlags: 0
