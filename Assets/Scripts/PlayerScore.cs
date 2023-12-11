@@ -5,15 +5,17 @@ using UnityEngine.Events;
 
 public class PlayerScore : MonoBehaviour
 {
-    public int NumberOfFood; //{ get; private set; }
+    // public int NumberOfFood; //{ get; private set; }
 
-    private int nutrientAccumulator = 0;
+    // private int nutrientAccumulator = 0;
 
     public UnityEvent<PlayerScore> OnFoodCollected;
 
     public GameObject bird;
 
-    public TempBirdManager birdManager;
+    private TempBirdManager birdManager;
+
+    private TempBirdController controller;
 
     void OnEnable()
     {
@@ -21,10 +23,10 @@ public class PlayerScore : MonoBehaviour
     }
 
     public void FoodCollected(int nutrition) {
-        NumberOfFood += nutrition;
-        nutrientAccumulator += nutrition;
-        if (nutrientAccumulator >= 10) {
-            nutrientAccumulator %= 10;
+        // NumberOfFood += nutrition;
+        birdManager.birdController.food_points += nutrition;
+        if (birdManager.birdController.food_points >= 10) {
+            birdManager.birdController.food_points %= 10;
             SpawnNewBird();
         }
         OnFoodCollected.Invoke(this);
@@ -37,6 +39,7 @@ public class PlayerScore : MonoBehaviour
         //     Quaternion.identity, birdManager.birdRoot.transform);
         
         GameObject child = Instantiate(bird, birdManager.birdRoot.transform);
+        birdManager.birdController.num_boids += 1;
         child.SetActive(true);
     }
 

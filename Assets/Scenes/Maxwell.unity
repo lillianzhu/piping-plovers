@@ -123,7 +123,13 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &79939932
+--- !u!4 &107272164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4282108835235397166, guid: c9a2625c0f1d67f4291a26b9710189f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 931599968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!21 &120475440
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -175,12 +181,6 @@ Material:
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!4 &107272164 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4282108835235397166, guid: c9a2625c0f1d67f4291a26b9710189f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 931599968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &135646520
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,6 +229,7 @@ MonoBehaviour:
   birdController: {fileID: 0}
   birdRoot: {fileID: 135646520}
   COM: {fileID: 716956526}
+  score: 0
 --- !u!1 &139484618
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,75 +553,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9a2625c0f1d67f4291a26b9710189f3, type: 3}
---- !u!21 &558015633
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Override
-  m_Shader: {fileID: 4800000, guid: a3a3bc8785681554d9558e2ea68f100e, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs: []
-    m_Ints: []
-    m_Floats:
-    - _AdvancedCat: 1
-    - _Banner: 1
-    - _DirectionalCat: 1
-    - _DirectionalFalloff: 2
-    - _DirectionalIntensity: 1
-    - _FarDistanceHeight: 0
-    - _FarDistanceOffset: 0
-    - _FogAxisMode: 1
-    - _FogCameraMode: 0
-    - _FogCat: 1
-    - _FogColorDuo: 1
-    - _FogDistanceEnd: 100
-    - _FogDistanceFalloff: 2
-    - _FogDistanceStart: 0
-    - _FogHeightEnd: 100
-    - _FogHeightFalloff: 2
-    - _FogHeightStart: 0
-    - _FogIntensity: 1
-    - _FogLayersMode: 0
-    - _IsHeightFogPreset: 1
-    - _IsHeightFogShader: 1
-    - _JitterIntensity: 1
-    - _NoiseCat: 1
-    - _NoiseDistanceEnd: 50
-    - _NoiseIntensity: 1
-    - _NoiseMax: 1
-    - _NoiseMin: 0
-    - _NoiseModeBlend: 1
-    - _NoiseScale: 30
-    - _SkyboxCat: 1
-    - _SkyboxFogBottom: 0
-    - _SkyboxFogFalloff: 1
-    - _SkyboxFogFill: 1
-    - _SkyboxFogHeight: 1
-    - _SkyboxFogIntensity: 1
-    - _SkyboxFogOffset: 0
-    m_Colors:
-    - _DirectionalColor: {r: 1, g: 0.7793103, b: 0.5, a: 1}
-    - _DirectionalDir: {r: 0, g: 0, b: 0, a: 0}
-    - _FogAxisOption: {r: 0, g: 0, b: 0, a: 0}
-    - _FogColorEnd: {r: 0.8862745, g: 1.443137, b: 2, a: 1}
-    - _FogColorStart: {r: 0.4411765, g: 0.722515, b: 1, a: 1}
-    - _NoiseSpeed: {r: 0.5, g: 0, b: 0.5, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &716956526
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +646,7 @@ MonoBehaviour:
   COM: {fileID: 0}
   boids: []
   num_boids: 0
+  food_points: 0
   com: {x: 0, y: 0, z: 0}
 --- !u!114 &880822631
 MonoBehaviour:
@@ -984,6 +917,75 @@ Transform:
   - {fileID: 1761235468}
   m_Father: {fileID: 430749006}
   m_LocalEulerAnglesHint: {x: 0, y: 1.107, z: 0}
+--- !u!21 &977809031
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Override
+  m_Shader: {fileID: 4800000, guid: a3a3bc8785681554d9558e2ea68f100e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AdvancedCat: 1
+    - _Banner: 1
+    - _DirectionalCat: 1
+    - _DirectionalFalloff: 2
+    - _DirectionalIntensity: 1
+    - _FarDistanceHeight: 0
+    - _FarDistanceOffset: 0
+    - _FogAxisMode: 1
+    - _FogCameraMode: 0
+    - _FogCat: 1
+    - _FogColorDuo: 1
+    - _FogDistanceEnd: 100
+    - _FogDistanceFalloff: 2
+    - _FogDistanceStart: 0
+    - _FogHeightEnd: 100
+    - _FogHeightFalloff: 2
+    - _FogHeightStart: 0
+    - _FogIntensity: 1
+    - _FogLayersMode: 0
+    - _IsHeightFogPreset: 1
+    - _IsHeightFogShader: 1
+    - _JitterIntensity: 1
+    - _NoiseCat: 1
+    - _NoiseDistanceEnd: 50
+    - _NoiseIntensity: 1
+    - _NoiseMax: 1
+    - _NoiseMin: 0
+    - _NoiseModeBlend: 1
+    - _NoiseScale: 30
+    - _SkyboxCat: 1
+    - _SkyboxFogBottom: 0
+    - _SkyboxFogFalloff: 1
+    - _SkyboxFogFill: 1
+    - _SkyboxFogHeight: 1
+    - _SkyboxFogIntensity: 1
+    - _SkyboxFogOffset: 0
+    m_Colors:
+    - _DirectionalColor: {r: 1, g: 0.7793103, b: 0.5, a: 1}
+    - _DirectionalDir: {r: 0, g: 0, b: 0, a: 0}
+    - _FogAxisOption: {r: 0, g: 0, b: 0, a: 0}
+    - _FogColorEnd: {r: 0.8862745, g: 1.443137, b: 2, a: 1}
+    - _FogColorStart: {r: 0.4411765, g: 0.722515, b: 1, a: 1}
+    - _NoiseSpeed: {r: 0.5, g: 0, b: 0.5, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &998505206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,6 +1214,12 @@ MonoBehaviour:
   - {fileID: 2612981127650682235, guid: 6a51d66c0d54242abbcf36f8fa91d463, type: 3}
   - {fileID: 6990965037035030026, guid: 9969206a84e104d69b91bc8f5779a083, type: 3}
   spawnRate: 0.2
+  shrimp_lifespan: 8
+  worm_lifespan: 5
+  clam_lifespan: 20
+  shrimp_p: 0.3
+  worm_p: 0.5
+  clam_p: 0.2
 --- !u!4 &1315212585
 Transform:
   m_ObjectHideFlags: 0
@@ -1827,7 +1835,7 @@ MonoBehaviour:
   renderPriority: 1
   manualPositionAndScale: 0
   styledSpace0: 0
-  overrideMaterial: {fileID: 558015633}
+  overrideMaterial: {fileID: 977809031}
   overrideCamToVolumeDistance: 1
   overrideVolumeDistanceFade: 0
   version: 0
@@ -1859,7 +1867,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 79939932}
+  - {fileID: 120475440}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2127,6 +2135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5686d2e34cecf40b09b26ed5ca5ca402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  root: {fileID: 135646520}
+  birdManager: {fileID: 0}
+  birdController: {fileID: 0}
 --- !u!114 &1959954153
 MonoBehaviour:
   m_ObjectHideFlags: 0

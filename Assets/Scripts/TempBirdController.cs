@@ -21,7 +21,11 @@ public class TempBirdController : MonoBehaviour
 
     public List<Rigidbody> boids;
 
-    public int num_boids;
+    // Flock size
+    public int num_boids = 1;
+
+    // Food_points: Food: Food_points/10 -> 2/10 
+    public int food_points = 0;
 
     public Vector3 com;
 

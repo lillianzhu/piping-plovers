@@ -10,6 +10,8 @@ public class TempBirdManager : MonoBehaviour
     public GameObject birdRoot;
     public GameObject COM;
 
+    public int score;
+
     void Awake()
     { 
         birdController = FindObjectOfType<TempBirdController>();
