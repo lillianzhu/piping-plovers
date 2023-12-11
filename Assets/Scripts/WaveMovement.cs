@@ -12,6 +12,9 @@ public class WaveMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      // Add variation in individual wave movement
+      // But this only happens at initialization
+      speed = Random.Range(0.3f, 1.2f);
       randSpeedMult = Random.Range(5, 20);
       startZ = transform.localPosition.z;
     }
@@ -20,9 +23,8 @@ public class WaveMovement : MonoBehaviour
 
     void Update()
     {
-        var pos = transform.localPosition;
-        var newZ = startZ + height * randSpeedMult * Mathf.Sin(Time.time * speed);
-        Debug.Log(randSpeedMult);
-        transform.position = new Vector3(pos.x, pos.y, newZ);
+      var pos = transform.localPosition;
+      var newZ = startZ + height * randSpeedMult * Mathf.Sin(Time.time * speed);
+      transform.position = new Vector3(pos.x, pos.y, newZ);
     }
 }

@@ -106,18 +106,16 @@ MonoBehaviour:
   actualMaxSpeed: 0
   actualMaxRotationSpeed: 0
   birdManager: {fileID: 0}
-  bird_parent: {fileID: 0}
   boid_com: 0.01
   boid_follow: 0.15
   boid_spacing: 0.5
   boid_coherence: 1
   boid_vel: 0.125
   boid_n_dist: 0.6
-  boid_n_theta: 10
+  boid_n_theta: 60
   boid_speed: 1.45
   boid_sensitivity: 0.2
   boid_max_speed: 5
-  boid_rest: 0
 --- !u!114 &5732841431241139226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,3 +143,5 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  bird: {fileID: 2720178208413740071}
+  birdManager: {fileID: 0}
