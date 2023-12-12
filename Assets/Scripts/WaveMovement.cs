@@ -14,8 +14,8 @@ public class WaveMovement : MonoBehaviour
     {
       // Add variation in individual wave movement
       // But this only happens at initialization
-      speed = Random.Range(0.3f, 1.2f);
-      randSpeedMult = Random.Range(5, 20);
+      speed = Random.Range(0.3f, 0.9f);
+      randSpeedMult = Random.Range(5, 18);
       startZ = transform.localPosition.z;
     }
 

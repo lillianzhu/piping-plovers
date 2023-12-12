@@ -35,9 +35,9 @@ public class ScoreUI : MonoBehaviour
     public void UpdateScoreText(PlayerScore playerScore)
     {
         scoreText.text = "Food: " + birdController.food_points.ToString() + "/10" +
-            "\n" + "Flock Size: " + birdController.num_boids.ToString() + "/5";
+            "\n" + "Flock Size: " + birdController.num_boids.ToString() + "/20";
 
-        if (birdController.num_boids >= 2)
+        if (birdController.num_boids >= 20)
         {
             // Display the win text.
             winTextObject.SetActive(true);
