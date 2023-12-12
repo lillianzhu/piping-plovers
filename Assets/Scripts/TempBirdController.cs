@@ -29,6 +29,8 @@ public class TempBirdController : MonoBehaviour
 
     public Vector3 com;
 
+    public ScoreUI scoreUI;
+
     void Update()
     {
         if (!cam)
@@ -59,6 +61,10 @@ public class TempBirdController : MonoBehaviour
         boids = new List<Rigidbody>(); // Initialize followers list
         num_boids = birdRoot.transform.childCount;
         com = new Vector3(0f, 0f, 0f);
+        if (num_boids == 0) {
+            scoreUI.SetGameOverText();
+        }
+
         for (int i = 0; i < num_boids; i++) {
             Rigidbody boid = birdRoot.transform.GetChild(i).gameObject.GetComponent<Rigidbody>();
             if (boid != null) {
